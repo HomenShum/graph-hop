@@ -28,6 +28,9 @@ and you get three genuinely different framings. **The disagreements are where th
   present state of the repo, which it has never seen.
 - **Council mode:** posts one question across 2-5 threads, then synthesizes into
   **agreement / contradiction / novel**, and returns a verdict rather than a menu.
+- **Pairing mode:** crosses an in-repo agent result (a Workflow, a review pass) against a thread
+  as *opposing priors* — because agents see the code but inherit your framing, while the thread
+  sees the reasoning but not the code. Neither can audit itself.
 
 ## Install
 
@@ -101,6 +104,7 @@ it. It does not publish, purchase, send mail, or touch credentials.
 | `reference/EFFORT.md` | The effort picker, routing table, escalation rules, cost reality |
 | `reference/CDP-MECHANICS.md` | DOM extraction, paste, send, and every footgun that has bitten |
 | `reference/COUNCIL.md` | Thread selection, question construction, synthesis matrix |
+| `reference/PAIRING.md` | Agent result vs. thread, disagreement taxonomy, resolution rule |
 
 `CDP-MECHANICS.md` is the part you cannot guess. Every entry is a real failure: the renderer
 freeze that makes screenshots go silently stale, the persisted composer draft that doubles your
