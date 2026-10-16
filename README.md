@@ -34,6 +34,8 @@ and you get three genuinely different framings. **The disagreements are where th
 
 ## Install
 
+Prerequisites: Claude Code with the `claude-in-chrome` tools named in [Setup](skills/graph-hop/SKILL.md#setup), an enabled browser integration, and access to a signed-in ChatGPT session. See the [official browser requirements](https://code.claude.com/docs/en/chrome#prerequisites).
+
 graph-hop is distributed through a Claude Code marketplace so it stays updatable:
 
 ```
@@ -58,12 +60,12 @@ not publish, purchase, send mail, or touch credentials.
 
 | File | Contents |
 |---|---|
-| `skills/graph-hop/SKILL.md` | The skill — modes, flow, reporting rules |
-| `skills/graph-hop/reference/EFFORT.md` | The effort picker, routing table, escalation rules |
-| `skills/graph-hop/reference/CDP-MECHANICS.md` | DOM extraction, paste, send, and every footgun that has bitten |
-| `skills/graph-hop/reference/COUNCIL.md` | Thread selection, question construction, synthesis matrix |
-| `skills/graph-hop/reference/PAIRING.md` | Agent result vs. thread, disagreement taxonomy, resolution rule |
-| `skills/graph-hop/reference/LEDGER.md` | Persistent cross-thread memory, node shape, staleness contract |
+| [`skills/graph-hop/SKILL.md`](skills/graph-hop/SKILL.md) | The skill — modes, flow, reporting rules |
+| [`skills/graph-hop/reference/EFFORT.md`](skills/graph-hop/reference/EFFORT.md) | The effort picker, routing table, escalation rules |
+| [`skills/graph-hop/reference/CDP-MECHANICS.md`](skills/graph-hop/reference/CDP-MECHANICS.md) | DOM extraction, paste, send, and every footgun that has bitten |
+| [`skills/graph-hop/reference/COUNCIL.md`](skills/graph-hop/reference/COUNCIL.md) | Thread selection, question construction, synthesis matrix |
+| [`skills/graph-hop/reference/PAIRING.md`](skills/graph-hop/reference/PAIRING.md) | Agent result vs. thread, disagreement taxonomy, resolution rule |
+| [`skills/graph-hop/reference/LEDGER.md`](skills/graph-hop/reference/LEDGER.md) | Persistent cross-thread memory, node shape, staleness contract |
 
 `CDP-MECHANICS.md` is the part you can't guess: the renderer freeze that makes screenshots go
 silently stale, the composer draft that persists across reloads and doubles a retried message, the
